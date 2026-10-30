@@ -1,0 +1,14 @@
+.fadepipe {
+    display: inline-block;
+    animation: fadePipe 0.5s infinite alternate;
+}
+
+@keyframes fadePipe {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
