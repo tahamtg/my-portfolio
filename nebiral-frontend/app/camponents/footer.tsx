@@ -4,10 +4,8 @@ import Image from "next/image";
 
 const footerLinks = [
   { label: "خانه", href: "/" },
-  { label: "درباره من", href: "/about" },
-  { label: "پروژه‌ها", href: "/projects" },
-  { label: "مهارت‌ها", href: "/skills" },
-  { label: "ارتباط با من", href: "/contact" },
+  { label: "درباره من", href: "https://hedro.ir/my-identity" },
+  { label: "ارتباط با من", href: "https://hedro.ir/contactme" },
 ];
 
 export default function Footer() {
@@ -62,11 +60,8 @@ export default function Footer() {
               <Link href="https://github.com/tahamtg" target="blank">
                 <Image style={{paddingTop:"20px"}} src="/images/github-142-svgrepo-com (1).svg" width={30} height={30} alt="github"/>
               </Link>
-              <Link href="https://github.com/tahamtg" target="blank">
+              <Link href="https://telegram.org/@mtgharaei" target="blank">
                 <Image style={{paddingTop:"20px"}} src="/images/telegram-svgrepo-com.svg" width={30} height={30} alt="github"/>
-              </Link>
-              <Link href="https://github.com/tahamtg" target="blank">
-                <Image style={{paddingTop:"20px"}} src="/images/linkedin-round-svgrepo-com.svg" width={30} height={30} alt="github"/>
               </Link>
             </section>
 

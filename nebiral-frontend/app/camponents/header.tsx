@@ -33,9 +33,6 @@ export default function Header() {
   return (
     <header className={`header ${scroll === true ? "scrolled-header" : ""}`}>
       <div className="header-container">
-        <Link href="/" className="header-logo">
-            <span className="logo-text">Taha's Digital Space</span>
-          </Link>
           
           <div className="nav-cta">
 
@@ -51,7 +48,7 @@ export default function Header() {
           ))}
         </nav>
 
-          <Link href="tel:09926059099" className="header-cta">
+          <Link href="tel:09059627668" className="header-cta">
             ارتباط با من
           </Link>
           </div>
