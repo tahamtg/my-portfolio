@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const footerLinks = [
   { label: "خانه", href: "/" },
-  { label: "درباره من", href: "https://hedro.ir/my-identity" },
-  { label: "ارتباط با من", href: "https://hedro.ir/contactme" },
+  { label: "درباره من", href: "/my-identity" },
+  { label: "ارتباط با من", href: "/contactme" },
 ];
 
 export default function Footer() {

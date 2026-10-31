@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 const navigation = [
   { label: "خانه", href: "/" },
-  { label: "آغاز همکاری", href: "/start-Collaborating" },
+  { label: "آغاز همکاری", href: "/my-identity" },
   { label: "هویت من", href: "/my-identity" },
 ];
 
