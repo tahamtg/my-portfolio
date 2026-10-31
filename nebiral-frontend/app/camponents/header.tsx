@@ -46,6 +46,9 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
+          <span>
+            Taha's Digital Space
+          </span>
         </nav>
 
           <Link href="tel:09059627668" className="header-cta">
